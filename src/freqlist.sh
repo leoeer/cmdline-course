@@ -1,7 +1,6 @@
 #! /bin/bash
 
 cat $1 |
-tr -s '[A-Z]' '[a-z]' |
 tr -s '[:space:]' '\n' |
 tr -d '[:punct:]' |
 sort | 
